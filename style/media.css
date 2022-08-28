@@ -229,4 +229,14 @@
         font-size: 24px;
         line-height: 30px;
     }
+    .header__menu{
+        width: 100%;
+        transform: translateY(-105%);
+    }
+    .menu-btn:focus+.header__menu{
+        transform: translateY(0%);
+    }
+    .header__list{
+        align-items: center;
+    }
 }
